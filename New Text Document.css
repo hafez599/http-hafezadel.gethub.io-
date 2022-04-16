@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+}
+.html{
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+}
+
+
+body{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:rgb(78, 74, 74);
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    margin-top: 50px;
+    font-size: 10px;
+}
+
+.home{
+    height: 100%;
+    width: 20%;
+}
+.img{
+    height: 93%;
+    width: 22%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.search{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    padding-left: 100px;
+}
+.input{
+    padding-left: 20px;
+    height: 30px;
+    width: 85%;
+    border: none;
+    background-color: rgb(206, 214, 214);
+}
+
+.offer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.pos{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1519px;
+    background-image: url(https://st-adidas-egy.mncdn.com/content/uploads/homepage/2022/March/worldcupwebphp/worldcup-hp-d.webp);
+    background-size: cover;
+    margin-top: 10px;
+    color: white;
+}
+.opp{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 280px;
+    margin-left: 100px;
+}
+
+.free{
+    width: 20px;
+    height: 20px;
+}
+.day{
+    width: 17px;
+    height: 17px;
+}
+.cash{
+    width: 17px;
+    height: 17px;
+}
+
+.hl{
+    width: 25px;
+    height: 10px;
+}
+
+.int{
+    
+    margin-left: 100px;
+    
+}
+.inf{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+.out{
+    width: 80px;
+    height: 40px;
+    border: red solid 10px;
+    color: white;
+    background-color: red;
+    font-weight: 500;
+    
+}
